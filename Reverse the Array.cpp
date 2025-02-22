@@ -18,8 +18,8 @@ int main() {
     vector<int> reversed = sol.ReverseArray(nums);
     
     cout << "Reversed Array: ";
-    for (int num : reversed) {
-        cout << num << " ";
+    for (int i=0;i<reversed.size();i++) {
+        cout <<reversed[i]<< " ";
     }
     cout << endl;
 
